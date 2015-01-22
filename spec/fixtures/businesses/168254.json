@@ -1,0 +1,34 @@
+{
+    "uid": "168254",
+    "uri": "https://api.myob.com/au/essentials/businesses/168254",
+    "name": "Demo Business",
+    "abn": "53086760303",
+    "ird": null,
+    "abnBranch": "   ",
+    "serialNumber": "619932405553",
+    "status": "ACTIVE",
+    "gstRegistered": true,
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "demo.biz.1233070@au.myob.com",
+    "phone": "12345678",
+    "streetAddress": {
+        "addressLine1": "12/100 Church Street",
+        "addressLine2": "",
+        "suburb": "Brighton",
+        "state": "VIC",
+        "postCode": "3199",
+        "country": "Australia"
+    },
+    "postalAddress": {
+        "addressLine1": "12/100 Church Street",
+        "addressLine2": "",
+        "suburb": "Brighton",
+        "state": "VIC",
+        "postCode": "3199",
+        "country": "Australia"
+    },
+    "financialYearStart": "July",
+    "financialYearEnd": "June",
+    "_links": []
+}

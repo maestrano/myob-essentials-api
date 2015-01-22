@@ -1,0 +1,37 @@
+{
+    "uid": "3604150",
+    "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150",
+    "name": "Brighton Body Works",
+    "types": [
+        "Customer"
+    ],
+    "firstName": "",
+    "lastName": "",
+    "phone": "",
+    "fax": "",
+    "position": "",
+    "notes": "",
+    "mobile": "",
+    "email": "",
+    "abn": "",
+    "ird": "",
+    "reportable": false,
+    "active": true,
+    "individual": false,
+    "shippingAddress": {
+        "addressLine1": "2/34 Church Street",
+        "addressLine2": "",
+        "suburb": "Brighton",
+        "state": "VIC",
+        "postCode": "3186",
+        "country": "Australia"
+    },
+    "billingAddress": null,
+    "website": "",
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150"
+        }
+    ]
+}

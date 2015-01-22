@@ -1,0 +1,84 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses"
+        }
+    ],
+    "items": [
+        {
+            "uid": "182820",
+            "uri": "https://api.myob.com/au/essentials/businesses/182820",
+            "name": "Bruno - Maestrano",
+            "abn": "           ",
+            "ird": null,
+            "abnBranch": "   ",
+            "serialNumber": "613590867273",
+            "status": "SUSPENDED",
+            "gstRegistered": true,
+            "firstName": "Bruno",
+            "lastName": "Chauvet",
+            "email": "bruno.chauvet@maestrano.com",
+            "phone": "0406420569",
+            "streetAddress": {
+                "addressLine1": "410 Elisabeth Street",
+                "addressLine2": "",
+                "suburb": "Surry Hills",
+                "state": "NSW",
+                "postCode": "2010",
+                "country": "Australia"
+            },
+            "postalAddress": {
+                "addressLine1": "410 Elisabeth Street",
+                "addressLine2": "",
+                "suburb": "Surry Hills",
+                "state": "NSW",
+                "postCode": "2010",
+                "country": "Australia"
+            },
+            "financialYearStart": "July",
+            "financialYearEnd": "June",
+            "_links": []
+        },
+        {
+            "uid": "168254",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254",
+            "name": "Demo Business",
+            "abn": "53086760303",
+            "ird": null,
+            "abnBranch": "   ",
+            "serialNumber": "619932405553",
+            "status": "ACTIVE",
+            "gstRegistered": true,
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "demo.biz.1233070@au.myob.com",
+            "phone": "12345678",
+            "streetAddress": {
+                "addressLine1": "12/100 Church Street",
+                "addressLine2": "",
+                "suburb": "Brighton",
+                "state": "VIC",
+                "postCode": "3199",
+                "country": "Australia"
+            },
+            "postalAddress": {
+                "addressLine1": "12/100 Church Street",
+                "addressLine2": "",
+                "suburb": "Brighton",
+                "state": "VIC",
+                "postCode": "3199",
+                "country": "Australia"
+            },
+            "financialYearStart": "July",
+            "financialYearEnd": "June",
+            "_links": []
+        }
+    ],
+    "page": {
+        "size": 2,
+        "totalElements": 2,
+        "totalPages": 1,
+        "number": 1
+    }
+}

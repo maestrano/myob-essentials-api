@@ -1,0 +1,386 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/contacts"
+        }
+    ],
+    "items": [
+        {
+            "uid": "3604150",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150",
+            "name": "Brighton Body Works",
+            "types": [
+                "Customer"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "2/34 Church Street",
+                "addressLine2": "",
+                "suburb": "Brighton",
+                "state": "VIC",
+                "postCode": "3186",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150"
+                }
+            ]
+        },
+        {
+            "uid": "3604156",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604156",
+            "name": "Bunnings",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "340 Bourke Street",
+                "addressLine2": "",
+                "suburb": "Malvern",
+                "state": "VIC",
+                "postCode": "3167",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604156"
+                }
+            ]
+        },
+        {
+            "uid": "3604149",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604149",
+            "name": "Footloose Dance Studio",
+            "types": [
+                "Customer"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "468 Nepean Highway",
+                "addressLine2": "",
+                "suburb": "Moorabbin",
+                "state": "VIC",
+                "postCode": "3189",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604149"
+                }
+            ]
+        },
+        {
+            "uid": "3604148",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604148",
+            "name": "Malvern Glass",
+            "types": [
+                "Customer"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "23 Nicholson Street",
+                "addressLine2": "",
+                "suburb": "Malvern",
+                "state": "VIC",
+                "postCode": "3167",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604148"
+                }
+            ]
+        },
+        {
+            "uid": "3604152",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604152",
+            "name": "Manchester",
+            "types": [
+                "Customer"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "288 Punt Road",
+                "addressLine2": "",
+                "suburb": "Richmond",
+                "state": "VIC",
+                "postCode": "3189",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604152"
+                }
+            ]
+        },
+        {
+            "uid": "3604155",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604155",
+            "name": "Officeworks",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "2/34 Church Street",
+                "addressLine2": "",
+                "suburb": "Brighton",
+                "state": "VIC",
+                "postCode": "3186",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604155"
+                }
+            ]
+        },
+        {
+            "uid": "3604154",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604154",
+            "name": "Origin Energy",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "468 Nepean Highway",
+                "addressLine2": "",
+                "suburb": "Moorabbin",
+                "state": "VIC",
+                "postCode": "3189",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604154"
+                }
+            ]
+        },
+        {
+            "uid": "3604151",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604151",
+            "name": "Red Dragon",
+            "types": [
+                "Customer"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "42 South Road",
+                "addressLine2": "",
+                "suburb": "Ashwood",
+                "state": "VIC",
+                "postCode": "3167",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604151"
+                }
+            ]
+        },
+        {
+            "uid": "3604157",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604157",
+            "name": "South East Water",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "204 Warrigal Road",
+                "addressLine2": "",
+                "suburb": "Oakleigh",
+                "state": "VIC",
+                "postCode": "3166",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604157"
+                }
+            ]
+        },
+        {
+            "uid": "3604153",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604153",
+            "name": "Telstra",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "23 Nicholson Street",
+                "addressLine2": "",
+                "suburb": "Malvern",
+                "state": "VIC",
+                "postCode": "3167",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604153"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 400,
+        "totalElements": 10,
+        "totalPages": 1,
+        "number": 1
+    }
+}

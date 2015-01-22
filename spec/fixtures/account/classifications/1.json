@@ -1,0 +1,11 @@
+{
+    "uid": "1",
+    "uri": "https://api.myob.com/au/essentials/account/classifications/1",
+    "name": "Asset",
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/account/classifications/1"
+        }
+    ]
+}

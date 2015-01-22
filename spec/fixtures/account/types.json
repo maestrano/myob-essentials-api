@@ -1,0 +1,170 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://essentials.myob.com.au/LA/api/public/account/types"
+        }
+    ],
+    "items": [
+        {
+            "uid": "1",
+            "uri": null,
+            "name": "Banking",
+            "classification": {
+                "uid": "1",
+                "uri": null,
+                "name": "Asset"
+            },
+            "_links": []
+        },
+        {
+            "uid": "2",
+            "uri": null,
+            "name": "Current Assets",
+            "classification": {
+                "uid": "1",
+                "uri": null,
+                "name": "Asset"
+            },
+            "_links": []
+        },
+        {
+            "uid": "3",
+            "uri": null,
+            "name": "Fixed Assets",
+            "classification": {
+                "uid": "1",
+                "uri": null,
+                "name": "Asset"
+            },
+            "_links": []
+        },
+        {
+            "uid": "4",
+            "uri": null,
+            "name": "Current Liabilities",
+            "classification": {
+                "uid": "2",
+                "uri": null,
+                "name": "Liability"
+            },
+            "_links": []
+        },
+        {
+            "uid": "5",
+            "uri": null,
+            "name": "Long Term Liabilities",
+            "classification": {
+                "uid": "2",
+                "uri": null,
+                "name": "Liability"
+            },
+            "_links": []
+        },
+        {
+            "uid": "6",
+            "uri": null,
+            "name": "Credit Card",
+            "classification": {
+                "uid": "2",
+                "uri": null,
+                "name": "Liability"
+            },
+            "_links": []
+        },
+        {
+            "uid": "7",
+            "uri": null,
+            "name": "Equity",
+            "classification": {
+                "uid": "3",
+                "uri": null,
+                "name": "Equity"
+            },
+            "_links": []
+        },
+        {
+            "uid": "8",
+            "uri": null,
+            "name": "Cost of Sales",
+            "classification": {
+                "uid": "5",
+                "uri": null,
+                "name": "Cost Of Goods Sold"
+            },
+            "_links": []
+        },
+        {
+            "uid": "9",
+            "uri": null,
+            "name": "Income",
+            "classification": {
+                "uid": "4",
+                "uri": null,
+                "name": "Income"
+            },
+            "_links": []
+        },
+        {
+            "uid": "10",
+            "uri": null,
+            "name": "Other Income",
+            "classification": {
+                "uid": "8",
+                "uri": null,
+                "name": "Other Income"
+            },
+            "_links": []
+        },
+        {
+            "uid": "11",
+            "uri": null,
+            "name": "Expense",
+            "classification": {
+                "uid": "6",
+                "uri": null,
+                "name": "Expense"
+            },
+            "_links": []
+        },
+        {
+            "uid": "12",
+            "uri": null,
+            "name": "Other Expense",
+            "classification": {
+                "uid": "9",
+                "uri": null,
+                "name": "Other Expenses"
+            },
+            "_links": []
+        },
+        {
+            "uid": "13",
+            "uri": null,
+            "name": "Retained Earnings",
+            "classification": {
+                "uid": "3",
+                "uri": null,
+                "name": "Equity"
+            },
+            "_links": []
+        },
+        {
+            "uid": "14",
+            "uri": null,
+            "name": "Current Earnings",
+            "classification": {
+                "uid": "3",
+                "uri": null,
+                "name": "Equity"
+            },
+            "_links": []
+        }
+    ],
+    "page": {
+        "size": 14,
+        "totalElements": 14,
+        "totalPages": 1,
+        "number": 1
+    }
+}

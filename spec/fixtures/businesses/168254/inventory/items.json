@@ -1,0 +1,331 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items"
+        }
+    ],
+    "items": [
+        {
+            "uid": "987816",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987816",
+            "number": "BX22",
+            "name": "Business Cards",
+            "description": "",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 88.5,
+            "purchasePrice": 80,
+            "saleAccount": {
+                "uid": "10108111",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111",
+                "name": "Sales 1",
+                "displayId": "4-2400"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987816"
+                }
+            ]
+        },
+        {
+            "uid": "987817",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987817",
+            "number": "DE900",
+            "name": "Key Rings",
+            "description": "",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 2,
+            "purchasePrice": 1.5,
+            "saleAccount": {
+                "uid": "10108112",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+                "name": "Sales 2",
+                "displayId": "4-2600"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987817"
+                }
+            ]
+        },
+        {
+            "uid": "987818",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987818",
+            "number": "DE902",
+            "name": "Manila folders",
+            "description": "",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 8.75,
+            "purchasePrice": 8,
+            "saleAccount": {
+                "uid": "10108112",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+                "name": "Sales 2",
+                "displayId": "4-2600"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987818"
+                }
+            ]
+        },
+        {
+            "uid": "987819",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987819",
+            "number": "DE808",
+            "name": "Notebooks",
+            "description": "Moleskin premium leather",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 35,
+            "purchasePrice": 32,
+            "saleAccount": {
+                "uid": "10108112",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+                "name": "Sales 2",
+                "displayId": "4-2600"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987819"
+                }
+            ]
+        },
+        {
+            "uid": "987815",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987815",
+            "number": "AC304",
+            "name": "Pens",
+            "description": "ball point and gel tips",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 5.5,
+            "purchasePrice": 5,
+            "saleAccount": {
+                "uid": "10108111",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111",
+                "name": "Sales 1",
+                "displayId": "4-2400"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987815"
+                }
+            ]
+        },
+        {
+            "uid": "987820",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987820",
+            "number": "ST907",
+            "name": "Stationary",
+            "description": "Stationary",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 240,
+            "purchasePrice": 210,
+            "saleAccount": {
+                "uid": "10108112",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+                "name": "Sales 2",
+                "displayId": "4-2600"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987820"
+                }
+            ]
+        },
+        {
+            "uid": "987821",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987821",
+            "number": "TT874",
+            "name": "Telephone",
+            "description": "Telephone bill",
+            "unitOfMeasure": "QTY",
+            "unitDescription": "",
+            "type": "Stock",
+            "active": true,
+            "salePrice": 89,
+            "purchasePrice": 75,
+            "saleAccount": {
+                "uid": "10108112",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+                "name": "Sales 2",
+                "displayId": "4-2600"
+            },
+            "saleTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "purchaseAccount": {
+                "uid": "10108115",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+                "name": "Purchases 1",
+                "displayId": "5-2800"
+            },
+            "purchaseTaxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "bought": true,
+            "sold": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987821"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 400,
+        "totalElements": 7,
+        "totalPages": 1,
+        "number": 1
+    }
+}

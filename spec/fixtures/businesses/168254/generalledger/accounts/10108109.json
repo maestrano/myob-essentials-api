@@ -1,0 +1,29 @@
+{
+    "uid": "10108109",
+    "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108109",
+    "name": "Fee income",
+    "displayId": "4-1200",
+    "type": {
+        "uid": "9",
+        "uri": null,
+        "name": "Income",
+        "classification": {
+            "uid": "4",
+            "uri": null,
+            "name": "Income"
+        }
+    },
+    "taxType": {
+        "uid": "10",
+        "uri": null,
+        "code": "GST",
+        "name": "Goods & Services Tax"
+    },
+    "active": true,
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108109"
+        }
+    ]
+}

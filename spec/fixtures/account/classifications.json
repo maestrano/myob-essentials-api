@@ -1,0 +1,104 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/account/classifications"
+        }
+    ],
+    "items": [
+        {
+            "uid": "1",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/1",
+            "name": "Asset",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/1"
+                }
+            ]
+        },
+        {
+            "uid": "2",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/2",
+            "name": "Liability",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/2"
+                }
+            ]
+        },
+        {
+            "uid": "3",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/3",
+            "name": "Equity",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/3"
+                }
+            ]
+        },
+        {
+            "uid": "4",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/4",
+            "name": "Income",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/4"
+                }
+            ]
+        },
+        {
+            "uid": "5",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/5",
+            "name": "Cost Of Goods Sold",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/5"
+                }
+            ]
+        },
+        {
+            "uid": "6",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/6",
+            "name": "Expense",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/6"
+                }
+            ]
+        },
+        {
+            "uid": "8",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/8",
+            "name": "Other Income",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/8"
+                }
+            ]
+        },
+        {
+            "uid": "9",
+            "uri": "https://api.myob.com/au/essentials/account/classifications/9",
+            "name": "Other Expenses",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/account/classifications/9"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 8,
+        "totalElements": 8,
+        "totalPages": 1,
+        "number": 1
+    }
+}

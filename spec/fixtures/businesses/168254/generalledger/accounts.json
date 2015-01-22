@@ -1,0 +1,1978 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts"
+        }
+    ],
+    "items": [
+        {
+            "uid": "10108109",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108109",
+            "name": "Fee income",
+            "displayId": "4-1200",
+            "type": {
+                "uid": "9",
+                "uri": null,
+                "name": "Income",
+                "classification": {
+                    "uid": "4",
+                    "uri": null,
+                    "name": "Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108109"
+                }
+            ]
+        },
+        {
+            "uid": "10108110",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108110",
+            "name": "Licensing income",
+            "displayId": "4-1600",
+            "type": {
+                "uid": "9",
+                "uri": null,
+                "name": "Income",
+                "classification": {
+                    "uid": "4",
+                    "uri": null,
+                    "name": "Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108110"
+                }
+            ]
+        },
+        {
+            "uid": "10108111",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111",
+            "name": "Sales 1",
+            "displayId": "4-2400",
+            "type": {
+                "uid": "9",
+                "uri": null,
+                "name": "Income",
+                "classification": {
+                    "uid": "4",
+                    "uri": null,
+                    "name": "Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111"
+                }
+            ]
+        },
+        {
+            "uid": "10108112",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112",
+            "name": "Sales 2",
+            "displayId": "4-2600",
+            "type": {
+                "uid": "9",
+                "uri": null,
+                "name": "Income",
+                "classification": {
+                    "uid": "4",
+                    "uri": null,
+                    "name": "Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108112"
+                }
+            ]
+        },
+        {
+            "uid": "10108092",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108092",
+            "name": "Discount received",
+            "displayId": "8-1000",
+            "type": {
+                "uid": "10",
+                "uri": null,
+                "name": "Other Income",
+                "classification": {
+                    "uid": "8",
+                    "uri": null,
+                    "name": "Other Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108092"
+                }
+            ]
+        },
+        {
+            "uid": "10108139",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108139",
+            "name": "Interest income",
+            "displayId": "8-1200",
+            "type": {
+                "uid": "10",
+                "uri": null,
+                "name": "Other Income",
+                "classification": {
+                    "uid": "8",
+                    "uri": null,
+                    "name": "Other Income"
+                }
+            },
+            "taxType": {
+                "uid": "8",
+                "uri": null,
+                "code": "FRE",
+                "name": "GST Free"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108139"
+                }
+            ]
+        },
+        {
+            "uid": "10108140",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108140",
+            "name": "Other income",
+            "displayId": "8-1400",
+            "type": {
+                "uid": "10",
+                "uri": null,
+                "name": "Other Income",
+                "classification": {
+                    "uid": "8",
+                    "uri": null,
+                    "name": "Other Income"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108140"
+                }
+            ]
+        },
+        {
+            "uid": "10108113",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108113",
+            "name": "Freight",
+            "displayId": "5-2000",
+            "type": {
+                "uid": "8",
+                "uri": null,
+                "name": "Cost of Sales",
+                "classification": {
+                    "uid": "5",
+                    "uri": null,
+                    "name": "Cost Of Goods Sold"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108113"
+                }
+            ]
+        },
+        {
+            "uid": "10108114",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108114",
+            "name": "Packaging",
+            "displayId": "5-2400",
+            "type": {
+                "uid": "8",
+                "uri": null,
+                "name": "Cost of Sales",
+                "classification": {
+                    "uid": "5",
+                    "uri": null,
+                    "name": "Cost Of Goods Sold"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108114"
+                }
+            ]
+        },
+        {
+            "uid": "10108115",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+            "name": "Purchases 1",
+            "displayId": "5-2800",
+            "type": {
+                "uid": "8",
+                "uri": null,
+                "name": "Cost of Sales",
+                "classification": {
+                    "uid": "5",
+                    "uri": null,
+                    "name": "Cost Of Goods Sold"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115"
+                }
+            ]
+        },
+        {
+            "uid": "10108116",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108116",
+            "name": "Purchases 2",
+            "displayId": "5-3000",
+            "type": {
+                "uid": "8",
+                "uri": null,
+                "name": "Cost of Sales",
+                "classification": {
+                    "uid": "5",
+                    "uri": null,
+                    "name": "Cost Of Goods Sold"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108116"
+                }
+            ]
+        },
+        {
+            "uid": "10108117",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108117",
+            "name": "Raw material",
+            "displayId": "5-3400",
+            "type": {
+                "uid": "8",
+                "uri": null,
+                "name": "Cost of Sales",
+                "classification": {
+                    "uid": "5",
+                    "uri": null,
+                    "name": "Cost Of Goods Sold"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108117"
+                }
+            ]
+        },
+        {
+            "uid": "10108118",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108118",
+            "name": "Accounting fees",
+            "displayId": "6-1000",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108118"
+                }
+            ]
+        },
+        {
+            "uid": "10108119",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108119",
+            "name": "Advertising",
+            "displayId": "6-1200",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108119"
+                }
+            ]
+        },
+        {
+            "uid": "10108120",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108120",
+            "name": "Bank charges",
+            "displayId": "6-1400",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "8",
+                "uri": null,
+                "code": "FRE",
+                "name": "GST Free"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108120"
+                }
+            ]
+        },
+        {
+            "uid": "10108089",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108089",
+            "name": "Discounts given",
+            "displayId": "6-1800",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108089"
+                }
+            ]
+        },
+        {
+            "uid": "10108121",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108121",
+            "name": "Electricity & gas",
+            "displayId": "6-2000",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108121"
+                }
+            ]
+        },
+        {
+            "uid": "10108122",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108122",
+            "name": "Insurance",
+            "displayId": "6-2600",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108122"
+                }
+            ]
+        },
+        {
+            "uid": "10108123",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108123",
+            "name": "Interest paid",
+            "displayId": "6-2800",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "8",
+                "uri": null,
+                "code": "FRE",
+                "name": "GST Free"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108123"
+                }
+            ]
+        },
+        {
+            "uid": "10108124",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108124",
+            "name": "Internet",
+            "displayId": "6-3000",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108124"
+                }
+            ]
+        },
+        {
+            "uid": "10108125",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108125",
+            "name": "Lease of equipment",
+            "displayId": "6-3200",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108125"
+                }
+            ]
+        },
+        {
+            "uid": "10108126",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108126",
+            "name": "Motor vehicle expenses",
+            "displayId": "6-3400",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108126"
+                }
+            ]
+        },
+        {
+            "uid": "10108127",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108127",
+            "name": "Office supplies",
+            "displayId": "6-3600",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108127"
+                }
+            ]
+        },
+        {
+            "uid": "10108128",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108128",
+            "name": "Postage & courier",
+            "displayId": "6-4000",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108128"
+                }
+            ]
+        },
+        {
+            "uid": "10108129",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108129",
+            "name": "Printing & stationery",
+            "displayId": "6-4200",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108129"
+                }
+            ]
+        },
+        {
+            "uid": "10108130",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108130",
+            "name": "Rates",
+            "displayId": "6-4400",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108130"
+                }
+            ]
+        },
+        {
+            "uid": "10108131",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108131",
+            "name": "Rent",
+            "displayId": "6-4600",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108131"
+                }
+            ]
+        },
+        {
+            "uid": "10108132",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108132",
+            "name": "Repairs & maintenance",
+            "displayId": "6-4800",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108132"
+                }
+            ]
+        },
+        {
+            "uid": "10108133",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108133",
+            "name": "Sub contractors",
+            "displayId": "6-5000",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108133"
+                }
+            ]
+        },
+        {
+            "uid": "10108134",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108134",
+            "name": "Sundry expenses",
+            "displayId": "6-5200",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108134"
+                }
+            ]
+        },
+        {
+            "uid": "10108090",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108090",
+            "name": "Superannuation expense",
+            "displayId": "6-5400",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108090"
+                }
+            ]
+        },
+        {
+            "uid": "10108135",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108135",
+            "name": "Telephone",
+            "displayId": "6-5600",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108135"
+                }
+            ]
+        },
+        {
+            "uid": "10108136",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108136",
+            "name": "Travel & accommodation",
+            "displayId": "6-5800",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108136"
+                }
+            ]
+        },
+        {
+            "uid": "10108091",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108091",
+            "name": "Wages & salaries",
+            "displayId": "6-6200",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108091"
+                }
+            ]
+        },
+        {
+            "uid": "10108137",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108137",
+            "name": "Water",
+            "displayId": "6-6400",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108137"
+                }
+            ]
+        },
+        {
+            "uid": "10108138",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108138",
+            "name": "Work cover insurance",
+            "displayId": "6-6600",
+            "type": {
+                "uid": "11",
+                "uri": null,
+                "name": "Expense",
+                "classification": {
+                    "uid": "6",
+                    "uri": null,
+                    "name": "Expense"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108138"
+                }
+            ]
+        },
+        {
+            "uid": "10108141",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108141",
+            "name": "Other expenses",
+            "displayId": "9-1000",
+            "type": {
+                "uid": "12",
+                "uri": null,
+                "name": "Other Expense",
+                "classification": {
+                    "uid": "9",
+                    "uri": null,
+                    "name": "Other Expenses"
+                }
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": null,
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108141"
+                }
+            ]
+        },
+        {
+            "uid": "10108093",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108093",
+            "name": "Cheque account",
+            "displayId": "1-1000",
+            "type": {
+                "uid": "1",
+                "uri": null,
+                "name": "Banking",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108093"
+                }
+            ]
+        },
+        {
+            "uid": "10108094",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108094",
+            "name": "Petty cash",
+            "displayId": "1-1200",
+            "type": {
+                "uid": "1",
+                "uri": null,
+                "name": "Banking",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108094"
+                }
+            ]
+        },
+        {
+            "uid": "10108095",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108095",
+            "name": "Savings account",
+            "displayId": "1-1400",
+            "type": {
+                "uid": "1",
+                "uri": null,
+                "name": "Banking",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108095"
+                }
+            ]
+        },
+        {
+            "uid": "10108076",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108076",
+            "name": "ABN withholding credits",
+            "displayId": "1-1600",
+            "type": {
+                "uid": "2",
+                "uri": null,
+                "name": "Current Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108076"
+                }
+            ]
+        },
+        {
+            "uid": "10108077",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108077",
+            "name": "Accounts receivable",
+            "displayId": "1-1800",
+            "type": {
+                "uid": "2",
+                "uri": null,
+                "name": "Current Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108077"
+                }
+            ]
+        },
+        {
+            "uid": "10108096",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108096",
+            "name": "Furniture & fittings",
+            "displayId": "1-2000",
+            "type": {
+                "uid": "3",
+                "uri": null,
+                "name": "Fixed Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "6",
+                "uri": null,
+                "code": "CAP",
+                "name": "Capital Acquisitions"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108096"
+                }
+            ]
+        },
+        {
+            "uid": "10108097",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108097",
+            "name": "Motor vehicles",
+            "displayId": "1-2200",
+            "type": {
+                "uid": "3",
+                "uri": null,
+                "name": "Fixed Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "6",
+                "uri": null,
+                "code": "CAP",
+                "name": "Capital Acquisitions"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108097"
+                }
+            ]
+        },
+        {
+            "uid": "10108098",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108098",
+            "name": "Office equipment & computers",
+            "displayId": "1-2400",
+            "type": {
+                "uid": "3",
+                "uri": null,
+                "name": "Fixed Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "6",
+                "uri": null,
+                "code": "CAP",
+                "name": "Capital Acquisitions"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108098"
+                }
+            ]
+        },
+        {
+            "uid": "10108099",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108099",
+            "name": "Plant & equipment",
+            "displayId": "1-2600",
+            "type": {
+                "uid": "3",
+                "uri": null,
+                "name": "Fixed Assets",
+                "classification": {
+                    "uid": "1",
+                    "uri": null,
+                    "name": "Asset"
+                }
+            },
+            "taxType": {
+                "uid": "6",
+                "uri": null,
+                "code": "CAP",
+                "name": "Capital Acquisitions"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108099"
+                }
+            ]
+        },
+        {
+            "uid": "10108100",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108100",
+            "name": "AMEX",
+            "displayId": "2-1000",
+            "type": {
+                "uid": "6",
+                "uri": null,
+                "name": "Credit Card",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108100"
+                }
+            ]
+        },
+        {
+            "uid": "10108101",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108101",
+            "name": "Mastercard",
+            "displayId": "2-1200",
+            "type": {
+                "uid": "6",
+                "uri": null,
+                "name": "Credit Card",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108101"
+                }
+            ]
+        },
+        {
+            "uid": "10108102",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108102",
+            "name": "Visa",
+            "displayId": "2-1400",
+            "type": {
+                "uid": "6",
+                "uri": null,
+                "name": "Credit Card",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108102"
+                }
+            ]
+        },
+        {
+            "uid": "10108078",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108078",
+            "name": "ABN withholdings payable",
+            "displayId": "2-1600",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108078"
+                }
+            ]
+        },
+        {
+            "uid": "10108079",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108079",
+            "name": "Accounts payable",
+            "displayId": "2-1800",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108079"
+                }
+            ]
+        },
+        {
+            "uid": "10108103",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108103",
+            "name": "Annual leave payable",
+            "displayId": "2-2000",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108103"
+                }
+            ]
+        },
+        {
+            "uid": "10108080",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108080",
+            "name": "GST collected",
+            "displayId": "2-2200",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108080"
+                }
+            ]
+        },
+        {
+            "uid": "10108081",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108081",
+            "name": "GST paid",
+            "displayId": "2-2400",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108081"
+                }
+            ]
+        },
+        {
+            "uid": "10108082",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108082",
+            "name": "PAYG withholdings payable",
+            "displayId": "2-2600",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108082"
+                }
+            ]
+        },
+        {
+            "uid": "10108083",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108083",
+            "name": "Payroll deductions",
+            "displayId": "2-2800",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108083"
+                }
+            ]
+        },
+        {
+            "uid": "10108104",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108104",
+            "name": "Sick leave payable",
+            "displayId": "2-3000",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108104"
+                }
+            ]
+        },
+        {
+            "uid": "10108084",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108084",
+            "name": "Superannuation payable",
+            "displayId": "2-3200",
+            "type": {
+                "uid": "4",
+                "uri": null,
+                "name": "Current Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108084"
+                }
+            ]
+        },
+        {
+            "uid": "10108105",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108105",
+            "name": "Bank loan",
+            "displayId": "2-3400",
+            "type": {
+                "uid": "5",
+                "uri": null,
+                "name": "Long Term Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108105"
+                }
+            ]
+        },
+        {
+            "uid": "10108106",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108106",
+            "name": "Other loan",
+            "displayId": "2-3600",
+            "type": {
+                "uid": "5",
+                "uri": null,
+                "name": "Long Term Liabilities",
+                "classification": {
+                    "uid": "2",
+                    "uri": null,
+                    "name": "Liability"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108106"
+                }
+            ]
+        },
+        {
+            "uid": "10108107",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108107",
+            "name": "Owner contribution",
+            "displayId": "3-1000",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108107"
+                }
+            ]
+        },
+        {
+            "uid": "10108108",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108108",
+            "name": "Owner drawings",
+            "displayId": "3-1200",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108108"
+                }
+            ]
+        },
+        {
+            "uid": "10108085",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108085",
+            "name": "Income tax",
+            "displayId": "3-1400",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108085"
+                }
+            ]
+        },
+        {
+            "uid": "10108088",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108088",
+            "name": "Historical balancing",
+            "displayId": "3-9999",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108088"
+                }
+            ]
+        },
+        {
+            "uid": "10108087",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108087",
+            "name": "Current year earnings",
+            "displayId": "3-1800",
+            "type": {
+                "uid": "14",
+                "uri": null,
+                "name": "Current Earnings",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108087"
+                }
+            ]
+        },
+        {
+            "uid": "10108086",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108086",
+            "name": "Retained earnings",
+            "displayId": "3-1600",
+            "type": {
+                "uid": "13",
+                "uri": null,
+                "name": "Retained Earnings",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": {
+                "uid": "13",
+                "uri": null,
+                "code": "NTR",
+                "name": "Not Reportable"
+            },
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108086"
+                }
+            ]
+        },
+        {
+            "uid": "-2",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/-2",
+            "name": "Allocate me (Deposit)",
+            "displayId": "3-8001",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": null,
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/-2"
+                }
+            ]
+        },
+        {
+            "uid": "-3",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/-3",
+            "name": "Allocate me (Withdrawal)",
+            "displayId": "3-8000",
+            "type": {
+                "uid": "7",
+                "uri": null,
+                "name": "Equity",
+                "classification": {
+                    "uid": "3",
+                    "uri": null,
+                    "name": "Equity"
+                }
+            },
+            "taxType": null,
+            "active": true,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/-3"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 400,
+        "totalElements": 68,
+        "totalPages": 1,
+        "number": 1
+    }
+}

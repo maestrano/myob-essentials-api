@@ -1,0 +1,45 @@
+{
+    "uid": "987816",
+    "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987816",
+    "number": "BX22",
+    "name": "Business Cards",
+    "description": "",
+    "unitOfMeasure": "QTY",
+    "unitDescription": "",
+    "type": "Stock",
+    "active": true,
+    "salePrice": 88.5,
+    "purchasePrice": 80,
+    "saleAccount": {
+        "uid": "10108111",
+        "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111",
+        "name": "Sales 1",
+        "displayId": "4-2400"
+    },
+    "saleTaxType": {
+        "uid": "10",
+        "uri": "https://api.myob.com/au/essentials/tax/types/10",
+        "code": "GST",
+        "name": "Goods & Services Tax"
+    },
+    "purchaseAccount": {
+        "uid": "10108115",
+        "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108115",
+        "name": "Purchases 1",
+        "displayId": "5-2800"
+    },
+    "purchaseTaxType": {
+        "uid": "10",
+        "uri": "https://api.myob.com/au/essentials/tax/types/10",
+        "code": "GST",
+        "name": "Goods & Services Tax"
+    },
+    "bought": true,
+    "sold": true,
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987816"
+        }
+    ]
+}
