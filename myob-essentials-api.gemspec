@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["BrunoChauvet"]
   s.date = "2015-01-22"
-  s.description = "TODO: longer description of your gem"
-  s.email = "bruno.chauvet@maestrano.com"
+  s.description = "Integrate with MYOB Essentials Accounting"
+  s.email = "it@maestrano.com"
   s.extra_rdoc_files = [
     "README.rdoc"
   ]
@@ -29,27 +29,43 @@ Gem::Specification.new do |s|
     "lib/myob-essentials-api.rb",
     "lib/myob/essentials/api/client.rb",
     "lib/myob/essentials/api/helper.rb",
+    "lib/myob/essentials/api/model/account.rb",
+    "lib/myob/essentials/api/model/account_classification.rb",
+    "lib/myob/essentials/api/model/account_type.rb",
     "lib/myob/essentials/api/model/base.rb",
     "lib/myob/essentials/api/model/business.rb",
     "lib/myob/essentials/api/model/contact.rb",
     "lib/myob/essentials/api/model/inventory_item.rb",
+    "lib/myob/essentials/api/model/tax_type.rb",
     "myob-essentials-api.gemspec",
+    "spec/fixtures/account/classifications.json",
+    "spec/fixtures/account/classifications/1.json",
+    "spec/fixtures/account/types.json",
+    "spec/fixtures/account/types/1.json",
     "spec/fixtures/businesses.json",
     "spec/fixtures/businesses/168254.json",
     "spec/fixtures/businesses/168254/contacts.json",
     "spec/fixtures/businesses/168254/contacts/3604150.json",
+    "spec/fixtures/businesses/168254/generalledger/accounts.json",
+    "spec/fixtures/businesses/168254/generalledger/accounts/10108109.json",
     "spec/fixtures/businesses/168254/inventory/items.json",
     "spec/fixtures/businesses/168254/inventory/items/987816.json",
+    "spec/fixtures/tax/types.json",
+    "spec/fixtures/tax/types/5.json",
     "spec/myob/essentials/api/client_spec.rb",
+    "spec/myob/essentials/api/model/account_classification_spec.rb",
+    "spec/myob/essentials/api/model/account_spec.rb",
+    "spec/myob/essentials/api/model/account_type_spec.rb",
     "spec/myob/essentials/api/model/business_spec.rb",
     "spec/myob/essentials/api/model/contact_spec.rb",
     "spec/myob/essentials/api/model/inventory_item_spec.rb",
+    "spec/myob/essentials/api/model/tax_type_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/BrunoChauvet/myob-essentials-api"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.5"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "Integrate with MYOB Essentials Accounting"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

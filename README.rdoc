@@ -1,19 +1,100 @@
 = myob-essentials-api
 
-Description goes here.
+== MYOB Essentials Accounting
 
-== Contributing to myob-essentials-api
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
-* Fork the project.
-* Start a feature/bugfix branch.
-* Commit and push until you are happy with your contribution.
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+Integrate with MYOB Essentials Accounting
 
-== Copyright
+== Installation
 
-Copyright (c) 2015 BrunoChauvet. See LICENSE.txt for
-further details.
+Add this line to your application's Gemfile:
 
+    gem 'myob-essentials-api'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install myob-essentials-api
+
+== Usage
+
+=== OAuth Authentication
+
+If you've already got an OAuth access token, feel free to skip to API Client Setup.
+
+The MYOB API uses 3 legged OAuth2. If you don't want to roll your own, or use the [OmniAuth strategy](https://github.com/davidlumley/omniauth-myob) you can authenticate using the `get_access_code_url` and `get_access_token` methods that [ghiculescu](https://github.com/ghiculescu) has provided like so:
+
+    class MYOBSessionController  
+      def new
+        redirect_to myob_client.get_access_code_url
+      end
+
+      def create
+        @token         = myob_client.get_access_token(params[:code])
+        @businesses    = myob_client.business.all_items
+        # then show the user a view of their available businesses
+      end
+
+      def myob_client
+        @api_client = Myob::Essentials::Api::Client.new({
+          :consumer => {
+            :key    => YOUR_CONSUMER_KEY,
+            :secret => YOUR_CONSUMER_SECRET,
+          }
+        })
+      end
+    end
+
+=== API Client Setup
+
+Create an api_client:
+
+    api_client = Myob::Essentials::Api::Client.new({
+      :consumer => {
+        :key    => YOUR_CONSUMER_KEY,
+        :secret => YOUR_CONSUMER_SECRET,
+      },
+      :access_token => YOUR_OAUTH_ACCESS_TOKEN,
+    })
+
+If you have a refresh token (the Myob API returns one by default) you can use that too:
+
+    api_client = Myob::Essentials::Api::Client.new({
+      :consumer => {
+        :key    => YOUR_CONSUMER_KEY,
+        :secret => YOUR_CONSUMER_SECRET,
+      },
+      :access_token  => YOUR_OAUTH_ACCESS_TOKEN,
+      :refresh_token => YOUR_OAUTH_REFRESH_TOKEN,
+    })
+
+Or if you know which Business UID you want to access too:
+
+    api_client = Myob::Essentials::Api::Client.new({
+      :consumer => {
+        :key    => YOUR_CONSUMER_KEY,
+        :secret => YOUR_CONSUMER_SECRET,
+      },
+      :access_token  => YOUR_OAUTH_ACCESS_TOKEN,
+      :refresh_token => YOUR_OAUTH_REFRESH_TOKEN,
+      :business_uid  => BUSINESS_UID
+    })
+
+=== API Methods
+
+==== Businesses
+
+Before using the majority of API methods you will need to have selected a Business UID. If you've already selected one when creating the client, feel free to ignore this.
+
+Return a list of businesses:
+
+    api_client.business.all_items
+
+
+====  Contacts
+
+Return a list of all contacts
+
+    api_client.contact.all_items

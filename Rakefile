@@ -17,9 +17,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "myob-essentials-api"
   gem.homepage = "http://github.com/BrunoChauvet/myob-essentials-api"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "bruno.chauvet@maestrano.com"
+  gem.summary = %Q{Integrate with MYOB Essentials Accounting}
+  gem.description = %Q{Integrate with MYOB Essentials Accounting}
+  gem.email = "it@maestrano.com"
   gem.authors = ["BrunoChauvet"]
   # dependencies defined in Gemfile
 end
