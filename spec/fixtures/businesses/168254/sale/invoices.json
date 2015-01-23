@@ -1,0 +1,131 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices"
+        }
+    ],
+    "items": [
+        {
+            "uid": "35608735",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608735",
+            "invoiceNumber": "IV00000000001",
+            "contact": {
+                "uid": "3604148",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604148",
+                "name": "Malvern Glass"
+            },
+            "issueDate": "2014-09-29",
+            "dueDate": "2014-10-29",
+            "status": "Open",
+            "displayStatus": "Overdue",
+            "total": 907.5,
+            "amountDue": 907.5,
+            "sent": false,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608735"
+                }
+            ]
+        },
+        {
+            "uid": "35608736",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608736",
+            "invoiceNumber": "IV00000000002",
+            "contact": {
+                "uid": "3604150",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150",
+                "name": "Brighton Body Works"
+            },
+            "issueDate": "2014-09-29",
+            "dueDate": "2014-10-29",
+            "status": "Open",
+            "displayStatus": "Overdue",
+            "total": 550,
+            "amountDue": 550,
+            "sent": false,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608736"
+                }
+            ]
+        },
+        {
+            "uid": "35608737",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608737",
+            "invoiceNumber": "IV00000000003",
+            "contact": {
+                "uid": "3604151",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604151",
+                "name": "Red Dragon"
+            },
+            "issueDate": "2014-09-29",
+            "dueDate": "2014-10-29",
+            "status": "Open",
+            "displayStatus": "Overdue",
+            "total": 962.5,
+            "amountDue": 962.5,
+            "sent": false,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608737"
+                }
+            ]
+        },
+        {
+            "uid": "35608738",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608738",
+            "invoiceNumber": "IV00000000004",
+            "contact": {
+                "uid": "3604151",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604151",
+                "name": "Red Dragon"
+            },
+            "issueDate": "2014-09-29",
+            "dueDate": "2014-10-29",
+            "status": "Open",
+            "displayStatus": "Overdue",
+            "total": 1684.38,
+            "amountDue": 1684.38,
+            "sent": false,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608738"
+                }
+            ]
+        },
+        {
+            "uid": "35608739",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608739",
+            "invoiceNumber": "IV00000000005",
+            "contact": {
+                "uid": "3604150",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604150",
+                "name": "Brighton Body Works"
+            },
+            "issueDate": "2014-09-29",
+            "dueDate": "2014-10-29",
+            "status": "Open",
+            "displayStatus": "Overdue",
+            "total": 2213.75,
+            "amountDue": 2213.75,
+            "sent": false,
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608739"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 400,
+        "totalElements": 5,
+        "totalPages": 1,
+        "number": 1
+    }
+}

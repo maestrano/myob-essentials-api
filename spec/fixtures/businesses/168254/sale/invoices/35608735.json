@@ -1,0 +1,55 @@
+{
+    "uid": "35608735",
+    "uri": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608735",
+    "invoiceNumber": "IV00000000001",
+    "contact": {
+        "uid": "3604148",
+        "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604148",
+        "name": "Malvern Glass"
+    },
+    "issueDate": "2014-09-29",
+    "dueDate": "2014-10-29",
+    "gstInclusive": true,
+    "lines": [
+        {
+            "account": {
+                "uid": "10108111",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/generalledger/accounts/10108111",
+                "name": "Sales 1",
+                "displayId": "4-2400"
+            },
+            "item": {
+                "uid": "987815",
+                "uri": "https://api.myob.com/au/essentials/businesses/168254/inventory/items/987815",
+                "number": "AC304",
+                "name": "Pens"
+            },
+            "taxType": {
+                "uid": "10",
+                "uri": "https://api.myob.com/au/essentials/tax/types/10",
+                "code": "GST",
+                "name": "Goods & Services Tax"
+            },
+            "unitOfMeasure": "Qty",
+            "description": "ball point and gel tips",
+            "quantity": 150,
+            "unitPrice": 6.05,
+            "total": 907.5,
+            "links": []
+        }
+    ],
+    "notes": null,
+    "purchaseOrderNumber": null,
+    "total": 907.5,
+    "gst": 82.5,
+    "amountPaid": 0,
+    "amountDue": 907.5,
+    "status": "Open",
+    "displayStatus": "Overdue",
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/sale/invoices/35608735"
+        }
+    ]
+}

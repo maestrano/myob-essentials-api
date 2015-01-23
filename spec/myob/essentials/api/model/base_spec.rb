@@ -24,6 +24,7 @@ describe Myob::Essentials::Api::Model::Base do
 
 		context 'update an existing object' do
 			let(:uid) { '892341' }
+			
 			before { base_hash['uid'] = uid }
 			before { stub_request(:put, "https://api.myob.com/au/essentials/base/#{uid}")
         .with(:body => base_hash.to_json, :headers => {'Accept'=>'application/json', 'Content-Type'=>'application/json'})

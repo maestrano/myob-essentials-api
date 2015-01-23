@@ -17,6 +17,8 @@ module Myob
           model :Contact
           model :InventoryItem
           model :Account
+          model :SaleInvoice
+          model :SalePayment
           
           @redirect_uri         = options[:redirect_uri]
           @consumer             = options[:consumer]

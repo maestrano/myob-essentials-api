@@ -8,7 +8,7 @@ describe Myob::Essentials::Api::Model::InventoryItem do
 
   subject { Myob::Essentials::Api::Client.new(params) }
   
-  describe ".item.all_items" do 
+  describe ".inventory_item.all_items" do 
     let(:contacts_response) { File.read("spec/fixtures/businesses/#{business_uid}/inventory/items.json") }
 
     before { stub_request(:get, "https://api.myob.com/au/essentials/businesses/#{business_uid}/inventory/items").to_return(:status => 200, :body => contacts_response, :headers => {}) }
@@ -18,7 +18,7 @@ describe Myob::Essentials::Api::Model::InventoryItem do
     end
   end
 
-  describe ".item.find" do 
+  describe ".inventory_item.find" do 
     let(:item_uid) { '987816' }
     let(:item_response) { File.read("spec/fixtures/businesses/#{business_uid}/inventory/items/#{item_uid}.json") }
 
