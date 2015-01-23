@@ -10,7 +10,7 @@ module Myob
           # https://api.myob.com/au/essentials
           # https://api.myob.com/nz/essentials
 
-          def initialize(client, model_name)
+          def initialize(client, model_name=nil)
             @client          = client
             @model_name      = model_name || 'Base'
             
@@ -77,15 +77,15 @@ module Myob
             object["uid"].nil? || object["uid"] == ""
           end
 
-          private
+private
           def create(object)
             object = typecast(object)
-            response = @client.connection.post(self.url, {:headers => @client.headers, :body => object.to_json})
+            @client.connection.post(self.url, {:headers => @client.headers, :body => object.to_json})
           end
 
           def update(object)
             object = typecast(object)
-            response = @client.connection.put(self.url(object), {:headers => @client.headers, :body => object.to_json})
+            @client.connection.put(self.url(object), {:headers => @client.headers, :body => object.to_json})
           end
 
           def typecast(object)
