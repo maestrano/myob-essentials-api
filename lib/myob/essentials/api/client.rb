@@ -17,6 +17,7 @@ module Myob
           model :Contact
           model :InventoryItem
           model :Account
+          model :AccountBalance
           model :SaleInvoice
           model :SalePayment
           
