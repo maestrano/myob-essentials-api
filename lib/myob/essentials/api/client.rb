@@ -76,7 +76,7 @@ module Myob
               OAuth2::AccessToken.new(@client, @access_token)
             end
           end
-          refresh! if @auto_refresh && @expires_at && @expires_at < Time.now
+          refresh! if @auto_refresh && @expires_at && @expires_at < Time.now.to_i
           @auth_connection
         end
 

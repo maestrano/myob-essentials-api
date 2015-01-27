@@ -52,8 +52,27 @@ describe Myob::Essentials::Api::Client do
   end
 
   describe ".connection" do 
-    it "returns the current access token" do
-      expect(subject.connection).to be_a(OAuth2::AccessToken)
+    let (:expires_in) { 1200 }
+    
+    before { stub_request(:post, "https://secure.myob.com/oauth2/v1/authorize").
+              to_return(:status => 200, :body => { 'access_token'=>'access_code','token_type'=>'bearer','expires_in'=>expires_in,'refresh_token'=>'refresh_token',
+                                              'scope'=>'la.global','user'=>{'uid'=>'uid','username'=>'username'}}.to_json, 
+                                        :headers => {"content-type"=>"application/json; charset=utf-8"}) }
+    before { subject.get_access_token('access_code') }
+
+    context "current token is valid" do
+      it "returns the current access token" do
+        expect(subject.connection).to be_a(OAuth2::AccessToken)
+      end
+    end
+
+    context "current token is expired" do
+      let (:expires_in) { -1200 }
+
+      it "returns the current access token" do
+        expect(subject).to receive(:refresh!)
+        expect(subject.connection).to be_a(OAuth2::AccessToken)
+      end
     end
   end
 end
