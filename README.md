@@ -5,7 +5,7 @@ myob-essentials-api
 
 ## MYOB Essentials Accounting
 
-Integrate with [![MYOB Essentials Accounting](http://developer.myob.com/api/essentials-accounting/)]
+Integrate with ![MYOB Essentials Accounting](http://developer.myob.com/api/essentials-accounting/)
 
 ## Installation
 
