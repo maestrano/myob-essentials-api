@@ -157,14 +157,32 @@ Fetches the entire collection of elements
 ### API Resources
 
 #### Businesses
-
 Before using the majority of API methods you will need to have selected a Business UID. If you've already selected one when creating the client, feel free to ignore this.
+```ruby
+  businesses = api_client.business.all_items
+  api_client.business_uid = businesses[0]['uid']
+```
 
-Return a list of businesses:
-`api_client.business.all_items`
+####  Account Classifications
+`api_client.account_classification.get`
 
+####  Account Types
+`api_client.account_type.get`
+
+####  Tax Types
+`api_client.tax_type.get`
 
 ####  Contacts
+`api_client.contact.get`
 
-Return a list of all contacts
-`api_client.contact.all_items`
+####  Accounts
+`api_client.account.get`
+
+####  Inventory Items
+`api_client.inventory_item.get`
+
+####  Sale Invoices
+`api_client.sale_invoice.get`
+
+####  Sale Payments
+`api_client.sale_payment.get`
