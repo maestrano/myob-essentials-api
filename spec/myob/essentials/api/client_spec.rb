@@ -31,4 +31,29 @@ describe Myob::Essentials::Api::Client do
       expect(subject.expires_at).to eql((Time.now+1200).to_i)
     end
   end
+
+  describe ".refresh!" do 
+    before { Timecop.freeze(Time.parse("2015-01-01T00:00:00")) }
+    after { Timecop.return }
+
+    it "refreshes the access_token" do
+      stub_request(:post, "https://secure.myob.com/oauth2/v1/authorize")
+         .with(:body => {"client_id"=>"key", "client_secret"=>"secret", "grant_type"=>"refresh_token", "refresh_token"=>"refresh_token"},
+               :headers => {'Content-Type'=>'application/x-www-form-urlencoded'})
+         .to_return(:status => 200, :body => { 'access_token'=>'new_access_code','token_type'=>'bearer','expires_in'=>1200,'refresh_token'=>'new_refresh_token',
+                                              'scope'=>'la.global','user'=>{'uid'=>'uid','username'=>'username'}}.to_json,
+                                    :headers => {"content-type"=>"application/json; charset=utf-8"})
+
+      subject.refresh!
+      expect(subject.access_token).to eql('new_access_code')
+      expect(subject.refresh_token).to eql('new_refresh_token')
+      expect(subject.expires_at).to eql((Time.now+1200).to_i)
+    end
+  end
+
+  describe ".connection" do 
+    it "returns the current access token" do
+      expect(subject.connection).to be_a(OAuth2::AccessToken)
+    end
+  end
 end

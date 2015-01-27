@@ -7,7 +7,7 @@ module Myob
       class Client
         include Myob::Essentials::Api::Helpers
 
-        attr_reader :client, :access_token, :refresh_token, :expires_at, :business_uid
+        attr_reader :client, :access_token, :refresh_token, :expires_at, :business_uid, :endpoint
 
         def initialize(options)
           model :Business
@@ -24,6 +24,8 @@ module Myob
           @consumer             = options[:consumer]
           @access_token         = options[:access_token]
           @refresh_token        = options[:refresh_token]
+          @auto_refresh         = options[:auto_refresh] || true
+          @endpoint             = options[:endpoint] || 'au'
           @business_uid         = options[:business_uid]
           
           @client               = OAuth2::Client.new(@consumer[:key], @consumer[:secret], {
@@ -55,21 +57,25 @@ module Myob
         end
 
         def refresh!
-          @auth_connection ||= OAuth2::AccessToken.new(@client, @access_token, {
-            :refresh_token => @refresh_token
-          })
+          @auth_connection ||= OAuth2::AccessToken.new(@client, @access_token, {refresh_token: @refresh_token})
 
-          @auth_connection.refresh!
+          @token         = @auth_connection.refresh!
+          @access_token  = @token.token
+          @expires_at    = @token.expires_at
+          @refresh_token = @token.refresh_token
+          @token
         end
 
         def connection
-          if @refresh_token
-            @auth_connection ||= OAuth2::AccessToken.new(@client, @access_token, {
-              :refresh_token => @refresh_token
-            })
-          else
-            @auth_connection ||= OAuth2::AccessToken.new(@client, @access_token)
+          @auth_connection ||= begin
+            if @refresh_token
+              OAuth2::AccessToken.new(@client, @access_token, {refresh_token: @refresh_token})
+            else
+              OAuth2::AccessToken.new(@client, @access_token)
+            end
           end
+          refresh! if @auto_refresh && @expires_at && @expires_at < Time.now
+          @auth_connection
         end
 
       end

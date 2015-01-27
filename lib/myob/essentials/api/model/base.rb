@@ -4,55 +4,24 @@ module Myob
       module Model
         class Base
 
-          API_URL = 'https://api.myob.com/au/essentials'
-          
-          # Essentials endpoints
-          # https://api.myob.com/au/essentials
-          # https://api.myob.com/nz/essentials
-
           def initialize(client, model_name=nil)
             @client          = client
             @model_name      = model_name || 'Base'
             
-            @next_page_link  = nil
+            @links = nil
           end
 
           def model_route
-            @model_name.to_s
+            @model_name.to_s.downcase
           end
 
-          def all(query = nil, modified_after = nil)
-            perform_request(self.url, query, modified_after)
-          end
-          
-          def next_page?
-            !!@next_page_link
-          end
-          
-          def next_page(query = nil)
-            perform_request(@next_page_link, query, modified_after)
+          def get
+            perform_request(url)
           end
 
-          def all_items(query = nil, modified_after = nil)
-            results = all(query, modified_after)["items"]
-            while next_page?
-              results += next_page(query)["items"] || []
-            end
-            results
-          end
-
-          def get(query = nil)
-            all(query)
-          end
-          
           def find(id)
             object = { 'uid' => id }
-            perform_request(self.url(object))
-          end
-          
-          def first(query = nil)
-            model_data = self.all(query)
-            model_data[0] if model_data.length > 0
+            perform_request(url(object))
           end
 
           def save(object)
@@ -60,12 +29,29 @@ module Myob
           end
 
           def destroy(object)
-            @client.connection.delete(self.url(object), :headers => @client.headers)
+            @client.connection.delete(url(object), :headers => @client.headers)
           end
 
+          def all_items
+            results = get["items"]
+            while link('next')
+              results += next_page["items"] || []
+            end
+            results
+          end
+          
+          def next_page
+            perform_request(link('next')) if link('next')
+          end
+
+          def previous_page
+            perform_request(link('previous')) if link('previous')
+          end
+
+protected
           def url(object = nil)
-            if self.model_route == ''
-              "#{API_URL}"
+            if model_route == ''
+              "https://api.myob.com/#{@client.endpoint}/essentials"
             elsif object && object['uid']
               "#{resource_url}/#{object['uid']}"
             else
@@ -77,15 +63,14 @@ module Myob
             object["uid"].nil? || object["uid"] == ""
           end
 
-private
           def create(object)
             object = typecast(object)
-            @client.connection.post(self.url, {:headers => @client.headers, :body => object.to_json})
+            @client.connection.post(url, {:headers => @client.headers, :body => object.to_json})
           end
 
           def update(object)
             object = typecast(object)
-            @client.connection.put(self.url(object), {:headers => @client.headers, :body => object.to_json})
+            @client.connection.put(url(object), {:headers => @client.headers, :body => object.to_json})
           end
 
           def typecast(object)
@@ -100,44 +85,28 @@ private
             returned_object
           end
 
+          def link(name)
+            return nil unless @links
+            link_hash = @links.select{|link_hash| link_hash['rel'] == name}.first
+            link_hash ? link_hash['href'] : nil
+          end
+
           def date_formatter
             "%Y-%m-%dT%H:%M:%S"
           end
           
           def resource_url
-            url = "#{API_URL}/#{self.model_route}"
+            url = "https://api.myob.com/#{@client.endpoint}/essentials/#{model_route}"
             url.gsub!(':business_uid', @client.business_uid) if @client.business_uid
             url
           end
           
-          def perform_request(url, query = nil, modified_after = nil)
-            if modified_after
-              filter_param = CGI::escape("LastModified gt datetime'#{modified_after.strftime('%FT%T')}'")
-              url = "#{url}?$filter=#{filter_param}"
-            end
-
+          def perform_request(url)
             response = @client.connection.get(url, {:headers => @client.headers})
-            model_data = parse_response(response)
-            @next_page_link = model_data['NextPageLink'] if self.model_route != ''
-
-            if query
-              process_query(model_data, query)
-            else
-              model_data
-            end
+            hash = JSON.parse(response.body)
+            @links = hash['_links']
+            hash
           end
-
-          def parse_response(response)
-            JSON.parse(response.body)
-          end
-
-          def process_query(data, query)
-            query.each do |property, value|
-              data.select! {|x| x[property] == value}
-            end
-            data
-          end
-
         end
       end
     end

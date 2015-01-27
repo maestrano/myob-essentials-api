@@ -1,0 +1,42 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/base?page=2&size=2"
+        },
+        {
+            "rel": "previous",
+            "href": "https://api.myob.com/au/essentials/base?page=1&size=2"
+        },
+        {
+            "rel": "next",
+            "href": "https://api.myob.com/au/essentials/base?page=3&size=2"
+        }
+    ],
+    "items": [
+        {
+            "uid": "3",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/base/3"
+                }
+            ]
+        },
+        {
+            "uid": "4",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/base/4"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 2,
+        "totalElements": 5,
+        "totalPages": 3,
+        "number": 2
+    }
+}
