@@ -31,9 +31,10 @@ module Myob
           @business_uid         = options[:business_uid]
           
           @client               = OAuth2::Client.new(@consumer[:key], @consumer[:secret], {
-            :site          => 'https://secure.myob.com',
-            :authorize_url => '/oauth2/account/authorize',
-            :token_url     => '/oauth2/v1/authorize',
+            site:          'https://secure.myob.com',
+            authorize_url: '/oauth2/account/authorize',
+            token_url:     '/oauth2/v1/authorize',
+            connection_opts: {request: {timeout: options[:timeout] || 300}}
           })
         end
 
