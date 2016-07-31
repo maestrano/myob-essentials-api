@@ -19,9 +19,10 @@ module Myob
           model :InventoryItem
           model :Account
           model :AccountBalance
+          model :JournalEntry
           model :SaleInvoice
           model :SalePayment
-          
+
           @redirect_uri         = options[:redirect_uri]
           @consumer             = options[:consumer]
           @access_token         = options[:access_token]
@@ -29,7 +30,7 @@ module Myob
           @auto_refresh         = options[:auto_refresh] || true
           @endpoint             = options[:endpoint] || 'au'
           @business_uid         = options[:business_uid]
-          
+
           @client               = OAuth2::Client.new(@consumer[:key], @consumer[:secret], {
             site:          'https://secure.myob.com',
             authorize_url: '/oauth2/account/authorize',
