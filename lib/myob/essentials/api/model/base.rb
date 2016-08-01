@@ -15,7 +15,7 @@ module Myob
             @model_name.to_s.downcase
           end
 
-          def get(params = nil)
+          def get(params = {})
             perform_request(url(nil, params))
           end
 
@@ -32,7 +32,7 @@ module Myob
             @client.connection.delete(url(object), :headers => @client.headers)
           end
 
-          def all_items(params = nil)
+          def all_items(params = {})
             results = get(params)["items"]
             while link('next')
               results += next_page["items"] || []
@@ -49,13 +49,13 @@ module Myob
           end
 
 protected
-          def url(object = nil, params = nil)
+          def url(object = nil, params = {})
             if model_route == ''
               "https://api.myob.com/#{@client.endpoint}/essentials"
             elsif object && object['uid']
               "#{resource_url}/#{object['uid']}"
             else
-              "#{resource_url}#{params}"
+              "#{resource_url}?#{URI.encode_www_form(params)}"
             end
           end
 
@@ -95,7 +95,7 @@ protected
             "%Y-%m-%dT%H:%M:%S"
           end
           
-          def resource_url(params = nil)
+          def resource_url
             url = "https://api.myob.com/#{@client.endpoint}/essentials/#{model_route}"
             url.gsub!(':business_uid', @client.business_uid) if @client.business_uid
             url

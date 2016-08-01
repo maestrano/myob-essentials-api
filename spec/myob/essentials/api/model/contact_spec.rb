@@ -19,15 +19,17 @@ describe Myob::Essentials::Api::Model::Contact do
     end
 
     context 'when we filter by customer type' do
+      let(:params_filter) { { type: 'Customer' } }
+
       before { stub_request(:get, "https://api.myob.com/au/essentials/businesses/#{business_uid}/contacts?type=Customer").to_return(:status => 200, :body => customers_response, :headers => {}) }
 
       it "uses the right url" do
-        subject.contact.all_items('?type=Customer')
+        subject.contact.all_items(params_filter)
         expect(a_request(:get, "https://api.myob.com/au/essentials/businesses/#{business_uid}/contacts?type=Customer")).to have_been_made.at_least_once
       end
 
       it "fetches only the contacts with the right type" do
-        expect(subject.contact.all_items('?type=Customer')).to eql(JSON.parse(customers_response)["items"])
+        expect(subject.contact.all_items(params_filter)).to eql(JSON.parse(customers_response)["items"])
       end
     end
   end
