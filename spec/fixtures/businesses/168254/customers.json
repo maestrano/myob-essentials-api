@@ -1,0 +1,90 @@
+{
+    "_links": [
+        {
+            "rel": "self",
+            "href": "https://api.myob.com/au/essentials/businesses/168254/contacts"
+        }
+    ],
+    "items": [
+        {
+            "uid": "3604155",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604155",
+            "name": "Officeworks",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "2/34 Church Street",
+                "addressLine2": "",
+                "suburb": "Brighton",
+                "state": "VIC",
+                "postCode": "3186",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604155"
+                }
+            ]
+        },
+        {
+            "uid": "3604154",
+            "uri": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604154",
+            "name": "Origin Energy",
+            "types": [
+                "Supplier"
+            ],
+            "firstName": "",
+            "lastName": "",
+            "phone": "",
+            "fax": "",
+            "position": "",
+            "notes": "",
+            "mobile": "",
+            "email": "",
+            "abn": "",
+            "ird": "",
+            "reportable": false,
+            "active": true,
+            "individual": false,
+            "shippingAddress": {
+                "addressLine1": "468 Nepean Highway",
+                "addressLine2": "",
+                "suburb": "Moorabbin",
+                "state": "VIC",
+                "postCode": "3189",
+                "country": "Australia"
+            },
+            "billingAddress": null,
+            "website": "",
+            "_links": [
+                {
+                    "rel": "self",
+                    "href": "https://api.myob.com/au/essentials/businesses/168254/contacts/3604154"
+                }
+            ]
+        }
+    ],
+    "page": {
+        "size": 400,
+        "totalElements": 10,
+        "totalPages": 1,
+        "number": 1
+    }
+}

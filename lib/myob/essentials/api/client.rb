@@ -7,8 +7,8 @@ module Myob
       class Client
         include Myob::Essentials::Api::Helpers
 
-        attr_reader :client, :access_token, :refresh_token, :expires_at, :endpoint
-        attr_accessor :business_uid
+        attr_reader   :client, :access_token, :refresh_token, :expires_at
+        attr_accessor :business_uid, :endpoint
 
         def initialize(options)
           model :Business
